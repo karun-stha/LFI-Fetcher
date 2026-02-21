@@ -29,12 +29,13 @@ python3 lfi.py 'http://target.com/page.php?file=' -v
 ------------------------------------------------------------------------
 
 ## Options
-
+```
 -v, --verbose\
 Show extra connection/debug details.
 
 -o, --output `<file>`{=html}\
 Save fetched file contents into a local file.
+```
 
 Example with output saving:
 ```python
