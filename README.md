@@ -30,10 +30,10 @@ python3 lfi.py 'http://target.com/page.php?file=' -v
 
 ## Options
 ```
--v, --verbose\
+-v, --verbose
 Show extra connection/debug details.
 
--o, --output `<file>`{=html}\
+-o, --output <file>
 Save fetched file contents into a local file.
 ```
 
